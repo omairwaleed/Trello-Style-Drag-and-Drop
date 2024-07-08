@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/css/main.c96f92cf.css",
+    "main.js": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/js/main.1633e268.js",
+    "static/media/image.png": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/media/image.1bbb42c64b771cee4a66.png",
+    "static/media/image_1.png": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/media/image_1.4d40a5fd8ca4324a9cd6.png",
+    "index.html": "/omairwaleed.io/Trello-Style-Drag-and-Drop/index.html",
+    "main.c96f92cf.css.map": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/css/main.c96f92cf.css.map",
+    "main.1633e268.js.map": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/js/main.1633e268.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c96f92cf.css",
+    "static/js/main.1633e268.js"
+  ]
+}
