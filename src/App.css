@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+body {
+  overflow-y: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.column {
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  padding: 20px;
+  width: 350px;
+  height: 90vh;
+  overflow-y: scroll;
+  margin-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.candidate-card {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  padding: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.column::-webkit-scrollbar {
+  display: none;
+}
+.image-card {
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 18px;
+}
+.star {
+  color: gold;
+  margin-left: 5px;
+}
+.header-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-style {
+  width: "100%";
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.status-style {
+  background-color: rgb(100, 149, 237);
+  align-items: center;
+  border-radius: 15px;
+  padding: 8px;
+  max-width: fit-content;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  .column {
+    width: 300px;
+    margin-bottom: 30px;
   }
-  to {
-    transform: rotate(360deg);
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  body {
+    overflow-y: scroll;
   }
 }
