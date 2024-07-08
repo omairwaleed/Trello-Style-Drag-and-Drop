@@ -4,6 +4,6 @@ export type Candidate = {
   location: string;
   contact: string;
   rating: number;
-  status: string;
+  status?: string;
   image: string;
 };

@@ -29,7 +29,6 @@ export const initialData: Column[] = [
         location: "Rome",
         contact: "1234567890",
         rating: 5,
-        status: "Followed",
         image: require("./assets/image_3.jpg"),
       },
       {
@@ -38,7 +37,7 @@ export const initialData: Column[] = [
         location: "New York",
         contact: "1234567890",
         rating: 4,
-        status: "New",
+        status: "Followed",
         image: require("./assets/image_4.jpg"),
       },
     ],
@@ -62,7 +61,7 @@ export const initialData: Column[] = [
         location: "New York",
         contact: "1234567890",
         rating: 3,
-        status: "New",
+
         image: require("./assets/image_5.jpg"),
       },
       {
@@ -71,7 +70,7 @@ export const initialData: Column[] = [
         location: "New York",
         contact: "1234567890",
         rating: 4,
-        status: "New",
+
         image: require("./assets/image_6.jpg"),
       },
       {
@@ -80,7 +79,7 @@ export const initialData: Column[] = [
         location: "New York",
         contact: "1234567890",
         rating: 5,
-        status: "New",
+        status: "Followed",
         image: require("./assets/image_7.jpg"),
       },
     ],
@@ -104,7 +103,7 @@ export const initialData: Column[] = [
         location: "New York",
         contact: "1234567890",
         rating: 4,
-        status: "New",
+
         image: require("./assets/image_9.jpg"),
       },
       {
@@ -113,7 +112,7 @@ export const initialData: Column[] = [
         location: "New York",
         contact: "1234567890",
         rating: 4,
-        status: "New",
+
         image: require("./assets/image_10.jpg"),
       },
       {
@@ -122,7 +121,6 @@ export const initialData: Column[] = [
         location: "New York",
         contact: "1234567890",
         rating: 4,
-        status: "New",
         image: require("./assets/image_11.jpg"),
       },
     ],
