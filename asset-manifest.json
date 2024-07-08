@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/css/main.c96f92cf.css",
-    "main.js": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/js/main.1633e268.js",
-    "static/media/image.png": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/media/image.1bbb42c64b771cee4a66.png",
-    "static/media/image_1.png": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/media/image_1.4d40a5fd8ca4324a9cd6.png",
-    "index.html": "/omairwaleed.io/Trello-Style-Drag-and-Drop/index.html",
-    "main.c96f92cf.css.map": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/css/main.c96f92cf.css.map",
-    "main.1633e268.js.map": "/omairwaleed.io/Trello-Style-Drag-and-Drop/static/js/main.1633e268.js.map"
+    "main.css": "/Trello-Style-Drag-and-Drop/static/css/main.c96f92cf.css",
+    "main.js": "/Trello-Style-Drag-and-Drop/static/js/main.7f3c93b8.js",
+    "static/media/image.png": "/Trello-Style-Drag-and-Drop/static/media/image.1bbb42c64b771cee4a66.png",
+    "static/media/image_1.png": "/Trello-Style-Drag-and-Drop/static/media/image_1.4d40a5fd8ca4324a9cd6.png",
+    "index.html": "/Trello-Style-Drag-and-Drop/index.html",
+    "main.c96f92cf.css.map": "/Trello-Style-Drag-and-Drop/static/css/main.c96f92cf.css.map",
+    "main.7f3c93b8.js.map": "/Trello-Style-Drag-and-Drop/static/js/main.7f3c93b8.js.map"
   },
   "entrypoints": [
     "static/css/main.c96f92cf.css",
-    "static/js/main.1633e268.js"
+    "static/js/main.7f3c93b8.js"
   ]
 }
